@@ -14,11 +14,11 @@ document
 
 function login(userName, password) {
   if (userName === "" || password === "") {
-    return "Fields are empty! Please provide credentials.";
+    return "Fields are empty! Please provide credentials 🙄";
   } else if (userName === "Hey_Coders" && password === "Trust_Me") {
-    return "Welcome back, Code Master!";
+    return "Congratulations 🥳 Successfully Logged In ⚡";
   } else {
-    return "Access Denied! Invalid credentials.";
+    return "Access Denied! Invalid credentials 😔";
   }
 }
 
