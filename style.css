@@ -104,4 +104,8 @@ button:hover {
     input, button {
         font-size: 0.9rem;
     }
+
+    #bg-video {
+        transform: scale(1.4);
+    }
 }
